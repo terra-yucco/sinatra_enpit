@@ -15,4 +15,7 @@ get '/guest' do
   erb :guest
 end
 
-
+get '/guest/:name' do
+  @title = 'Hello  #{params['name']}!'
+  erb :guest
+end
