@@ -1,9 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  "Good Morning."
+  "<h1>Good Morning.</h1>"
 end
 
 get '/jp' do
-  "おはようございます。"
+  "<h1>おはようございます。</h1>"
 end
