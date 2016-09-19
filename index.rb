@@ -25,3 +25,7 @@ get '/jp' do
 </html>
 EOS
 end
+
+get '/user/:name' do
+  "Hello #{params['name']}!"
+end
