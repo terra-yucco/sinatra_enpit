@@ -1,6 +1,10 @@
 require 'sinatra'
-require 'sinatra/reloader'
+#require 'sinatra/reloader'
 
 get '/' do
-  "Hello World!"
+  "Good Morning."
+end
+
+get '/ja' do
+  "おはようございます。"
 end
