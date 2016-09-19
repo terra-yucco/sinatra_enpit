@@ -10,3 +10,9 @@ get '/about' do
   erb :about
 end
 
+get '/guest' do
+  @title = 'Hello Guest!'
+  erb :guest
+end
+
+
