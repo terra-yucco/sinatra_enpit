@@ -1,16 +1,9 @@
 require 'sinatra'
 
 get '/' do
-<<EOS
-<html>
-  <head>
-    <title>Greet by English.</title>
-  </head>
-  <body>
-    <h1>Good Morning.</h1>
-  </body>
-</html>
-EOS
+  @title = 'Greet by English'
+  @greeting = 'Hello.'
+  erb :index
 end
 
 get '/jp' do
